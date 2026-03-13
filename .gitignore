@@ -1,0 +1,21 @@
+# --- ROS 2 编译生成文件 (垃圾堆) ---
+build/
+install/
+log/
+src/navigation2/
+
+# --- Python 缓存 ---
+__pycache__/
+*.py[cod]
+
+# --- 编辑器配置 (个人隐私) ---
+.vscode/
+.idea/
+*.swp
+
+# --- 系统垃圾 ---
+.DS_Store
+
+# --- 忽略具体的地图文件(如果地图很大，通常不放git，或者放lfs) ---
+# *.pgm
+# 但因为你是初学，地图不大，可以先不忽略 .pgm
