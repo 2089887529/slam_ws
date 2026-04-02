@@ -19,3 +19,8 @@ __pycache__/
 # --- 忽略具体的地图文件(如果地图很大，通常不放git，或者放lfs) ---
 # *.pgm
 # 但因为你是初学，地图不大，可以先不忽略 .pgm
+
+
+src/FAST_LIO_ROS2
+src/pcd2pgm
+src/spark-fast-lio
